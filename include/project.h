@@ -1,0 +1,8 @@
+#ifndef PROJECT_H
+#define PROJECT_H
+
+#define PROJECT_VERSION "0.1.0"
+#define MAX_ENTITIES 1000
+#define MAX_COMPONENTS_PER_ENTITY 32
+
+#endif /* PROJECT_H */
