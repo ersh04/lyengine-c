@@ -3,7 +3,7 @@ CFLAGS = -Iinclude -Wall -Wextra -std=c11 -g
 SRCDIR = src
 BINDIR = bin
 SRCS = $(SRCDIR)/main.c $(SRCDIR)/engine/entity/entity.c $(SRCDIR)/engine/math/vectors/vector2.c $(SRCDIR)/engine/scene/scene.c $(SRCDIR)/utils/json/json_loader.c $(SRCDIR)/utils/json/json_parser.c
-TARGET = $(BINDIR)/c-project
+TARGET = $(BINDIR)/lyengine-c
 LDLIBS = -lcjson
 
 TEST_DIR = tests

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.10)
-project(c-project C)
+project(lyengine-c C)
 
-add_executable(c-project
+add_executable(lyengine-c
 	 src/main.c
 	src/engine/entity/entity.c
 	src/engine/math/vectors/vector2.c
@@ -9,5 +9,5 @@ add_executable(c-project
 	src/utils/json/json_loader.c
 	src/utils/json/json_parser.c
 )
-target_include_directories(c-project PRIVATE include)
-target_link_libraries(c-project PRIVATE cjson)
+target_include_directories(lyengine-c PRIVATE include)
+target_link_libraries(lyengine-c PRIVATE cjson)

@@ -7,6 +7,6 @@ typedef struct
 {
     float x;
     float y;
-} Data;
+} Vector2;
 
 #endif /* ENGINE_VECTOR2_H */
